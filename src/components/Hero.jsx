@@ -36,7 +36,7 @@ export default function Hero() {
             className="mt-9 flex flex-wrap items-center justify-center gap-4"
           >
             <a
-              href={`/${cvFilename}`}
+              href={`${import.meta.env.BASE_URL}${cvFilename}`}
               download={cvFilename}
               className="rounded-lg bg-white px-6 py-3 text-sm font-bold text-black transition-transform hover:scale-105 hover:bg-slate-200"
             >
